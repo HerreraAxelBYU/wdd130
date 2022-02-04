@@ -1,0 +1,125 @@
+:root {
+    --body_color: #f3f3f3;
+    --heading_color: #3b75cb;;
+    --paragraph_color: #073136;
+    --header_footer_backgroundcolor: #2095D8;
+    --principal_font: 'Roboto', sans-serif;
+    --heading_font: 'Monserrat'
+}
+
+/** G L O B A L  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--principal_font);
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--body_color);
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    color: var(--paragraph_color);
+}
+
+
+.header__nav {
+    background-color: var(--header_footer_backgroundcolor);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header__logo img{
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+.header__bar{
+    width: 300px;
+    margin-right: 40px;
+}
+.header__bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bar ul a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: var(--body_color);
+}
+
+/** GENERAL SECTIONS **/
+
+.main p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main h1 {
+    color: var(--heading_color);
+    font-family: var(--heading_font);
+    font-size: 33px;
+    line-height: 45px;
+    font-size: 45px;
+    margin: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+section {
+    margin-top: 80px;
+}
+
+.main__section{
+    display: flex;
+    align-items: center;
+
+}
+
+.main_section__image img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 30px #000;
+}
+
+.main__section3 {
+    margin-bottom: 40px;
+}
+
+.footer {
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer__course p{
+    color: var(--body_color);
+    font-size: 20px;
+}
+
+.footer__socialMedia img{
+    height: 50px;
+}
+
+footer {
+    background-color: var(--header_footer_backgroundcolor);
+}
+
+
