@@ -64,6 +64,8 @@ header {
 /** B A N N E R **/
 
 .banner {
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -117,7 +119,8 @@ section {
 }
 
 .main_section__image img {
-    width: 450px;
+    width: 470px;
+    height: 320px;
     margin: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 30px #000;
@@ -146,12 +149,14 @@ section {
 }
 .footer__socialMedia img{
     height: 50px;
+    width: 50px;
     margin: 15px;
     transition-duration: 0.4s;
 }
 
 .footer__socialMedia img:hover {
     height: 60px;
+    width: 60px;
     margin: 0;
 }
 
