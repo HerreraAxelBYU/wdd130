@@ -11,14 +11,16 @@
 
 * {
     font-family: var(--principal_font);
-    max-width: 1040px;
 }
 
 body {
     background: var(--body_color);
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+.page {
+    max-width: 1040px;
+    margin: 0 auto;
 }
 
 p {
@@ -46,8 +48,6 @@ header {
     align-items: center;
 }
 
-
-
 .header__bar ul a {
     text-decoration: none;
     letter-spacing: 2px;
@@ -73,6 +73,10 @@ header {
     position: absolute;
     top: 250px;
     right: 480px;
+}
+
+.banner__image img {
+    width: 1040px;
 }
 
 .button {
