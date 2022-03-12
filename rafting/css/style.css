@@ -132,6 +132,7 @@ section {
 
 .main_section__image img {
     width: 500px;
+    height: 350px;
     margin: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 30px #000;
