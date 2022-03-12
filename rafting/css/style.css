@@ -81,8 +81,8 @@ p {
 
 .header__button {
     position: absolute;
-    top: 380px;
-    right: 860px;
+    top: 390px;
+    right: 890px;
 }
 
 .header__button button {
@@ -293,11 +293,12 @@ footer {
 }
 
 .header_contact_us h1,
- p,
-label,
-h3,
-h4,
-li {
+.header_contact_us p,
+.contact_form_input h3,
+.contact_form_input form label,
+.contact_form_input form input,
+.contact_information h4,
+.information_list ul li {
     color: #f3f3f3;
 }
 
