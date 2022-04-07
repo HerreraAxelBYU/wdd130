@@ -297,7 +297,7 @@ button:active:before {
 .card__icon2 img:hover {
     transform: translateY(-15px);
 }
-.card__text h6 {
+.card__text h3 {
     font-size: 30px;
     padding: 10px;
     text-align: center;
@@ -375,7 +375,7 @@ button:active:before {
     position: relative;
 }
 
-.form__tittle h3, h6 {
+.form__tittle h3 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
