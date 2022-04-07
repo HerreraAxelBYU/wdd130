@@ -381,6 +381,12 @@ button:active:before {
     color: #fff;
     text-align: center;
 }
+.form__subtittle h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
 .control__input label {
     position: absolute;
     top: -20px;
