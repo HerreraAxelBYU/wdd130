@@ -375,7 +375,7 @@ button:active:before {
     position: relative;
 }
 
-.form__tittle h2, h6 {
+.form__tittle h3, h6 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
