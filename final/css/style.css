@@ -408,10 +408,10 @@ button:active:before {
     
 }
 
-#gender1 {
+#gender_male {
     top: 65px;
 }
-#gender2 {
+#gender_female{
     top: -4px;
 }
 
