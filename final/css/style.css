@@ -409,10 +409,10 @@ button:active:before {
 }
 
 #male__label {
-    top: 65px;
+    top: 0px;
 }
 #female__label{
-    top: -4px;
+    top: 68px;
 }
 
 .control__info {
